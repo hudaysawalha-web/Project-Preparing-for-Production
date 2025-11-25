@@ -1,0 +1,29 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "This folder should contain the scaffolded project files to get a student started on their project. This repo will be added to the Classroom for students to use, so please do not have any solutions in this folder.",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "mocha test/shuffle.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "dev": "parcel /index.html",
+    "build": "parcel build /index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "chai": "^6.2.1",
+    "cypress": "^15.7.0",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.6.3",
+    "mocha": "^11.7.5",
+    "parcel": "^2.16.1"
+  }
+}

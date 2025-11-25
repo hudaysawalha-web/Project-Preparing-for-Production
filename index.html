@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Night - Flashcard Learning Tool</title>
+  <meta name="description" content="Study Night - An interactive flashcard tool for effective learning">
+  
+  <!-- Consolidated CSS imports -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/flipcard.css">
+  <link rel="stylesheet" href="styles/navigationMenu.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+  <header role="banner">
+    <h1 data-cy="header">Study Night</h1>
+    <nav aria-label="Main Navigation Menu" class="primary_nav_bar" role="navigation">
+      <ul>
+        <li><button type="button" id="homePage" data-cy="home-link" aria-label="Navigate to Home page">Home</button></li>
+        <li><button type="button" id="aboutPage" data-cy="about-link" aria-label="Navigate to About page">About</button></li>
+        <li><button type="button" id="cardSetPage" data-cy="card-set-link" aria-label="Navigate to Card Sets page">Card Sets</button></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main role="main" data-cy="main-content">
+    <!-- Content will be dynamically loaded here by JavaScript -->
+  </main>
+
+  <!-- Scripts at the end for better performance -->
+  <script type="module" src="./data/data.js"></script>
+  <script type="module" src="./src/index.js"></script>
+</body>
+</html>
